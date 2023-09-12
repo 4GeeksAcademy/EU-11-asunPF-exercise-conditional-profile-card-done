@@ -37,10 +37,9 @@ function render(variables = {}) {
           <h2>${variables.role}</h2>
           <h3>${variables.city} ${variables.country}</h3>
           <ul class="${variables.socialMediaPosition}">
-            <li><a href="https://twitter.com/francodemedici"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="https://github.com/SalomonFranco"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/salomon-franco/"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://instagram.com/salomonfranco"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://github.com/asun-pf"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/asun-perea-b38186270/"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/juldo8186/"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
     `;
@@ -54,12 +53,10 @@ window.onload = function() {
     // if includeCover is true the algorithm should
     includeCover: true,
     // this is the url of the image that will used as background for the profile cover
-    background:
-      "https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    // this is the url for the profile avatar
+    background: "https://picsum.photos/200/300", // this is the url of the image that will used as background for the profile cover
     avatarURL:
-      "https://media.licdn.com/dms/image/C4D03AQFbEH1L37P_0Q/profile-displayphoto-shrink_800_800/0/1662855439218?e=2147483647&v=beta&t=Jvsz7Op0hPdbA371CcKBd5dwAuPfDGu34jywSUFfDAM",
-    // social media bar position (left or right)
+      "https://res.cloudinary.com/carpemundi/image/upload/v1694535439/avatar-asun.gif", // this is the url for the profile avatar
+
     socialMediaPosition: "position-left",
     // social media usernames
     twitter: "",
